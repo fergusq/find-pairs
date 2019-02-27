@@ -1,0 +1,9 @@
+[package]
+name = "find-pairs"
+version = "0.1.0"
+authors = ["Iikka Hauhio <iikka.hauhio@helsinki.fi>"]
+edition = "2018"
+
+[dependencies]
+conllu-rs = { git = "https://github.com/fergusq/conllu-rs.git" }
+clap = "*"
