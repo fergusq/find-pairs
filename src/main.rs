@@ -18,7 +18,7 @@ fn main() {
 
     for sentence in data {
         for word in &sentence {
-            if word.deprel == rel {
+            if word.deprel.to_string() == rel {
                 println!("{} {}", word.form, sentence[word.head-1].form);
             }
         }
